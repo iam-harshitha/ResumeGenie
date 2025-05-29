@@ -1,0 +1,9 @@
+requests
+streamlit
+beautifulsoup4
+groq
+langchain
+langgraph
+PyPDF
+pandas
+python-dotenv
