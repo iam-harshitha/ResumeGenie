@@ -5,9 +5,9 @@ import os
 from typing import List
 import pandas as pd
 from groq import Groq
-from dotenv import load_dotenv  # Only Groq supported for now (feel free to switch if needed)
+from dotenv import load_dotenv 
 
-# Load your Groq API key from environment variable or directly (not recommended)
+# Load your Groq API key from environment variable
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
