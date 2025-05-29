@@ -9,15 +9,6 @@ from dotenv import load_dotenv
 
 # Load your Groq API key from environment variable
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-client = Groq(api_key=GROQ_API_KEY)
-
-from groq import Groq
-from dotenv import load_dotenv
-import os
-from pathlib import Path
-
-load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def tailor_resume(roles: list, resume_text: str, output_path="tailored_resume.txt"):
