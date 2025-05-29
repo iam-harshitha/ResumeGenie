@@ -1,6 +1,6 @@
 # 🧠 ResumeGenie: Discover Jobs. Tailor Resumes. Get Hired
 
-ResumeGenie is an AI Agentic System that streamlines your entire job application process. Powered by LangChain and LangGraph, it orchestrates intelligent agents to scrape the latest remote job listings, filter them based on your preferences, and leverage cutting-edge LLMs (like LLaMA-3 via Groq) to tailor your resume — all within a seamless Streamlit interface.
+ResumeGenie is an **AI Agentic System** that streamlines your entire job application process. Powered by **LangChain and LangGraph**, it orchestrates intelligent agents to scrape the latest remote job listings, filter them based on your preferences, and leverage cutting-edge **LLMs (like LLaMA-3 via Groq)** to tailor your resume — all within a seamless Streamlit interface.
 
 This end-to-end pipeline combines automation, reasoning, and personalization — helping you discover, refine, and apply for jobs smarter and faster.
 
