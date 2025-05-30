@@ -9,7 +9,7 @@ This end-to-end pipeline combines automation, reasoning, and personalization —
 ## 🚀 How It Works
 
 ### 📄 Step 1: Upload Your Resume  
-Users upload their base resume (in `.txt` format) directly through the UI.
+Users upload their base resume (in `.txt` , `.pdf` format) directly through the UI.
 
 ### 🌐 Step 2: Scrape Remote Job Listings  
 With one click, ResumeGenie scrapes recent jobs from platforms like:
