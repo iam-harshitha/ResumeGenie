@@ -56,7 +56,7 @@ Both remain accessible on the UI after generation.
 | `scrapers/*.py`       | 🌐 Individual job board scrapers (RemoteOK, WWR, FindWork)                  |
 | `job_combiner.py`     | 🧮 Merges all scraped jobs into `all_jobs_combined.csv`                     |
 | `llms.py`             | 🧠 LangChain + Groq LLaMA-3 resume tailoring pipeline                        |
-| `langchain_agent.py`  | 🤖 LangChain agent configuration for job selection and transformation       |
+| `lang_agent.py`  | 🤖 LangChain agent configuration for job selection and transformation       |
 | `graph.py`            | 🧩 LangGraph implementation for stepwise LLM flow                           |
 | `requirements.txt`    | 📦 List of Python dependencies                                               |
 | `.env`                | 🔐 Stores `GROQ_API_KEY` for secure LLM access                              |
